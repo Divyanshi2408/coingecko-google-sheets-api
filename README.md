@@ -21,7 +21,7 @@ To build an automated system using **Google Apps Script** that fetches and updat
 
 ---
 
-## 🧠 Approach
+## Approach
 
 1. Used `UrlFetchApp` in Apps Script to call CoinGecko’s REST API endpoint:
 https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1
@@ -47,6 +47,8 @@ return;
 - Function: fetchCryptoData
 - Trigger type: Time-driven
 - Frequency: Hourly
+
+  ![Image](https://github.com/user-attachments/assets/2eb05cea-ca7c-4afe-b3ba-7f7d7a4a964b)
 
 ⚠️ API Rate Limit Handling
 If the sheet shows:
